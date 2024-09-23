@@ -10,12 +10,12 @@
     "github>carpenike/renovate-config:commit-message",
     "github>carpenike/renovate-config:pr-labels",
     "github>carpenike/renovate-config:semantic-commits",
-    "github>carpenike/renovate-config:generic-regex-manager.json5"
+    "github>carpenike/renovate-config:custom-managers.json5"
   ],
   "timezone": "America/New_York",
   "dependencyDashboardTitle": "Renovate Dashboard",
   "suppressNotifications": ["prIgnoreNotification"],
   "commitBodyTable": true,
-  "rebaseWhen": "conflicted",
-  "platformCommit": true
+  "rebaseWhen": "auto",
+  "platformCommit": "enabled"
 }
